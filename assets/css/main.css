@@ -7,6 +7,10 @@ h1, h2, h3{
     color: #4e79fa;
 }
 
+main{
+
+}
+
 .homepage-bg-ab{
     position: absolute;
     width: 100%;
@@ -14,6 +18,6 @@ h1, h2, h3{
     left: 0;
     overflow: hidden;
     top: 0;
-    height: auto;
+    height: 190px;
 
 }
