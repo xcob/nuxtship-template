@@ -4,13 +4,18 @@ const menuitems = [
   //   title: "Features",
   //   path: "#",
   // },
+  
+  {
+    title: "About",
+    path: "/about",
+  },
   {
     title: "Services",
     path: "/services",
   },
   {
-    title: "About",
-    path: "/about",
+    title: "Our Work",
+    path: "/our-work",
   },
   {
     title: "Contact",

@@ -3,22 +3,22 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "~/assets/img/kennedy-smith.png";
-const TeamImg2 = "~/assets/img/jacob-smith.png";
+const TeamImg1 = "../assets/img/kennedy-smith.png";
+const TeamImg2 = "../assets/img/jacob-smith.png";
 
 const team = [
   {
-    name: "Kennedy Smith",
-    title: "Creative Director",
+    name: "Bask & Bathe",
+    title: "Home Spa Collective",
     avatar: {
-      src: "~/assets/img/kennedy-smith.png",
+      src: TeamImg1,
       width: 480,
       height: 560,
     },
   },
   {
-    name: "Jacob Smith",
-    title: "Developer - Digital Strategist",
+    name: "The Knob Shoppe",
+    title: "Homemade Guitar Pedals",
     avatar: {
       src: TeamImg2,
       width: 580,
@@ -31,18 +31,19 @@ const team = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>About</template>
-      <template v-slot:desc>We are a small passionate team.</template>
+      <template v-slot:title>Our Work</template>
+      <template v-slot:desc>Our past clients success</template>
     </LandingSectionhead>
 
-    <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
+    <!-- sub heading -->
+    <!-- <div class="flex flex-col gap-3 mx-auto max-w-4xl mt-16">
       <h2 class="font-bold text-3xl">
         Boutique Creative Group
       </h2>
       <p class="text-lg leading-relaxed text-slate-500">
         We're a 
       </p>
-    </div>
+    </div> -->
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       <div v-for="item of team" class="group">
         <div class="w-full aspect-square">
