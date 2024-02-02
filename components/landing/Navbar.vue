@@ -1,9 +1,9 @@
 <script setup>
 const menuitems = [
-  {
-    title: "Features",
-    path: "#",
-  },
+  // {
+  //   title: "Features",
+  //   path: "#",
+  // },
   {
     title: "Services",
     path: "/services",
@@ -28,13 +28,13 @@ const open = ref(false);
         <a href="/" class="text-lg"
           >
           <img
-            class="transition-transform transform hover:scale-125"
+            class="transition-transform"
             src="~/assets/img/smith-logo.png"
             alt="smith-creative-logo"
             loading="eager"
             format="avif"
-            width="512"
-            height="512"
+            width="212"
+            height="212"
           />
         </a>
         <div class="block lg:hidden">
