@@ -5,26 +5,9 @@ definePageMeta({
 
 const pricing = [
   {
-    name: "Personal",
-    price: "Free",
-    popular: false,
-    features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Nuxt Sub domain",
-      "Basic Integrations",
-      "Community Support",
-    ],
-    button: {
-      text: "Get Started",
-      link: "/",
-    },
-  },
-  {
     name: "Startup",
     price: {
-      monthly: "$19",
+      monthly: "Digital Marketing",
       annual: "$16",
       discount: "10%",
       original: "$24",
@@ -40,12 +23,12 @@ const pricing = [
     ],
     button: {
       text: "Get Started",
-      link: "#",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSdUADj6R44NLNlGiqqvt96r_ocqwB7CR2jCsM2nUax5j9wOLg/viewform",
     },
   },
   {
     name: "Enterprise",
-    price: "Custom",
+    price: "Web Development",
     popular: false,
     features: [
       "All Pro Features",
@@ -57,7 +40,7 @@ const pricing = [
     ],
     button: {
       text: "Contact us",
-      link: "/contact",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSdUADj6R44NLNlGiqqvt96r_ocqwB7CR2jCsM2nUax5j9wOLg/viewform",
     },
   },
 ];
@@ -66,9 +49,9 @@ const pricing = [
 <template>
   <LandingContainer>
     <LandingSectionhead>
-      <template v-slot:title>Pricing</template>
+      <template v-slot:title>Services</template>
       <template v-slot:desc
-        >Simple & Predictable pricing. No Surprises.</template
+        >Boutique Offerings</template
       >
     </LandingSectionhead>
 
