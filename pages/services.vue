@@ -5,7 +5,7 @@ definePageMeta({
 
 const pricing = [
   {
-    name: "Startup",
+    name: "Increase Revenue",
     price: {
       monthly: "Digital Marketing",
       annual: "$16",
@@ -14,12 +14,7 @@ const pricing = [
     },
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "SEO and Social Solutions",
     ],
     button: {
       text: "Get Started",
@@ -27,22 +22,34 @@ const pricing = [
     },
   },
   {
-    name: "Enterprise",
+    name: "Empower Your Business",
     price: "Web Development",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "Custom Website Design",
     ],
     button: {
       text: "Contact us",
       link: "https://docs.google.com/forms/d/e/1FAIpQLSdUADj6R44NLNlGiqqvt96r_ocqwB7CR2jCsM2nUax5j9wOLg/viewform",
     },
   },
+  {
+    name: "Start Your Brand",
+    price: {
+      monthly: "Logo & Brand Design",
+      annual: "$16",
+      discount: "10%",
+      original: "$24",
+    },
+    popular: true,
+    features: [
+      "Unrivaled branding",
+    ],
+    button: {
+      text: "Get Started",
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSdUADj6R44NLNlGiqqvt96r_ocqwB7CR2jCsM2nUax5j9wOLg/viewform",
+    },
+  }
 ];
 </script>
 

@@ -23,7 +23,17 @@ const open = ref(false);
 
 <template>
   <LandingContainer>
+    
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
+      <img
+            class="homepage-bg-ab"
+            src="~/assets/img/bg.png"
+            alt="smith-creative-logo"
+            loading="eager"
+            format="avif"
+            width="1080"
+            height="1020"
+          />
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
           >
