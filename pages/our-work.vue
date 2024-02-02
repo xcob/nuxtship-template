@@ -3,8 +3,8 @@ definePageMeta({
   layout: "landing",
 });
 
-const TeamImg1 = "../assets/img/kennedy-smith.png";
-const TeamImg2 = "../assets/img/jacob-smith.png";
+const TeamImg1 = "~/assets/img/kennedy-smith.png";
+const TeamImg2 = "../jacob-smith.png";
 
 const team = [
   {
@@ -20,7 +20,7 @@ const team = [
     name: "The Knob Shoppe",
     title: "Homemade Guitar Pedals",
     avatar: {
-      src: TeamImg2,
+      src: "~/assets/img/jacob-smith.png",
       width: 580,
       height: 580,
     },

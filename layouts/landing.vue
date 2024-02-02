@@ -1,3 +1,4 @@
+
 <template>
   <LandingNavbar></LandingNavbar>
   <slot></slot>
