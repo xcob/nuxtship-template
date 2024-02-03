@@ -77,7 +77,7 @@ const open = ref(false);
         </div>
       </div>
       <nav
-        class="w-full lg:w-auto mt-2 lg:flex lg:mt-0"
+        class="w-full  mt-2 lg:flex lg:mt-0 justify-end	"
         :class="{ block: open, hidden: !open }"
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
