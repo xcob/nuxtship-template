@@ -5,16 +5,17 @@ definePageMeta({
 
 const pricing = [
   {
-    name: "Increase Revenue",
+    name: "Business Package",
     price: {
-      monthly: "Digital Marketing",
-      annual: "$16",
-      discount: "10%",
-      original: "$24",
+      monthly: "$1000/Month",
+      annual: "$10k/Year",
+      discount: "15%",
+      original: "$12K",
     },
     popular: true,
     features: [
-      "SEO and Social Solutions",
+      "Lightening Fast Website",
+      ""
     ],
     button: {
       text: "Get Started",

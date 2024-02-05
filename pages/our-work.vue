@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 const TeamImg1 = "~/assets/img/kennedy-smith.png";
-const TeamImg2 = "../jacob-smith.png";
+const TeamImg2 = "~/jacob-smith.png";
 
 const team = [
   {
@@ -48,7 +48,7 @@ const team = [
       <div v-for="item of team" class="group">
         <div class="w-full aspect-square">
           <img
-            :src="item.avatar.src"
+            :src="TeamImg2"
             :width="item.avatar.width"
             :height="item.avatar.height"
             format="avif"
