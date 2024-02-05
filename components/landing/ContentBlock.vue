@@ -25,6 +25,7 @@
             class=""
             src="~/assets/img/kennedy-smith.png"
             alt="smith-creative-logo"
+            
             loading="eager"
             format="avif"
             width="1080"
